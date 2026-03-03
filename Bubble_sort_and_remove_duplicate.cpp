@@ -12,15 +12,7 @@ int main(){
             }
         }
     }
-    int x=0;
-    for(int y=1;y<a;y++){
-        if(arr[y]!=arr[x]){
-            x=x+1;
-            arr[x]=arr[y];
-        }
-    }
-    for(int b=0;b<=x;b++){
-        cout<<arr[b]<<endl;
-    }
+    cout<<"The second highest value is :"<<arr[size-2];
     return 0;
+
 }
